@@ -31,7 +31,8 @@ The tsconfig file can start as an empty configuration file, here you can see an 
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
-    "module": "commonjs",
+    "module": "es6",
+    "moduleResolution": "node",
     "target": "es5",
     "jsx": "react",
     "allowJs": true
